@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-alibaba-example" />
+        <module name="hello-spring-cloud-alibaba-nacos-consumer" />
+        <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" />
+        <module name="hello-spring-cloud-alibaba-nacos-provider" />
+        <module name="hello-spring-cloud-alibaba-nacos-provider (1)" />
+        <module name="hello-spring-cloud-gateway" />
+        <module name="sentinel-core-example" />
+        <module name="sentinel-feign-consumer" />
+        <module name="sentinel-feign-provider" />
+        <module name="sentinel-gateway" />
+        <module name="sentinel-gateway-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="hello-spring-cloud-alibaba-dependencies" target="1.8" />
+      <module name="hello-spring-cloud-alibaba-example" target="1.8" />
+      <module name="hello-spring-cloud-alibaba-nacos-consumer" target="1.8" />
+      <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" target="6" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider" target="1.8" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider (1)" target="1.8" />
+      <module name="hello-spring-cloud-gateway" target="1.8" />
+      <module name="sentinel-core-example" target="1.8" />
+      <module name="sentinel-feign-consumer" target="1.8" />
+      <module name="sentinel-feign-provider" target="1.8" />
+      <module name="sentinel-gateway" target="1.8" />
+      <module name="sentinel-gateway-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

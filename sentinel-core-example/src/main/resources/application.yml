@@ -1,0 +1,25 @@
+server:
+  port: 18080
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      # 关闭懒加载
+      eager: true
+      datasource:
+        ds1:
+          # 文件加载 json
+          file:
+            file: classpath:FlowRule.json
+            data-type: json
+            rule-type: flow
+        ds2:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: sentinel-core-example
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+  application:
+    name: sentinel-core-example

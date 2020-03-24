@@ -1,0 +1,23 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/umeox-dev?serverTimezone=UTC
+    username: root
+    password: 123456
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: MYSQL
+    openInView: true
+    show_sql: true
+    generate-ddl: true #(false)
+    hibernate:
+      ddl-auto: update #(none)
+      #naming-strategy: org.hibernate.config.EJB3NamingStrategy #影响表和字段名称，表中列名和字段名称
+    properties:
+#      hibernate.cache.use_second_level_cache: true
+      hibernate.cache.use_query_cache: false
+      hibernate.generate_statistics: false

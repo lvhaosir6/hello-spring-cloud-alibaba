@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencie/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-example/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-core-example/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-feign-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-gateway-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
